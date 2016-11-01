@@ -8,6 +8,7 @@ import assign from 'object-assign';
 import warning from '../_util/warning';
 import FormItem from './FormItem';
 import { FIELD_META_PROP } from './constants';
+import warning from '../_util/warning';
 
 export interface FormCreateOption {
   onFieldsChange?: (props: any, fields: Array<any>) => void;
